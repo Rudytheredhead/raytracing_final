@@ -6,7 +6,7 @@ else
 endif
 
 # 2. Lista plików źródłowych (żeby nie pisać ich dwa razy)
-SOURCES = main.cpp Bryly.cpp Wektor3D.cpp Matematyka.cpp Wczytywanie.cpp
+SOURCES = src/main.cpp src/Bryly.cpp src/Wektor3D.cpp src/Matematyka.cpp src/Wczytywanie.cpp
 
 # 3. Główna reguła kompilacji
 all: $(EXEC)

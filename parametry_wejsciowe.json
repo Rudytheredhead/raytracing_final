@@ -4,22 +4,79 @@
   },
   "swiatla": [
     {
-      "pozycja": [0.0, 15.0, -4.0],
-      "kolor": [1.0, 1.0, 1.0],
-      "moc_emisji": 1500.0,
+      "pozycja": [
+        -10.0,
+        15.0,
+        -2.0
+      ],
+      "kolor": [
+        1.0,
+        0.2,
+        0.8
+      ],
+      "moc_emisji": 1200.0,
       "kat_swiecenia": -2.0,
-      "kierunek_swiecenia": [0.0, -1.0, -0.5]
+      "kierunek_swiecenia": [
+        0.5,
+        -1.0,
+        -0.5
+      ]
+    },
+    {
+      "pozycja": [
+        10.0,
+        10.0,
+        -6.0
+      ],
+      "kolor": [
+        0.2,
+        0.8,
+        1.0
+      ],
+      "moc_emisji": 1000.0,
+      "kat_swiecenia": -2.0,
+      "kierunek_swiecenia": [
+        -0.5,
+        -1.0,
+        -0.5
+      ]
     }
   ],
   "obiekty": [
     {
       "typ": "SiatkaOBJ",
-      "sciezka": "plastic_crate_01_1k.obj",
-      "pozycja": [0.0, -5.0, 0.0],
+      "sciezka": "models/gradient_knot.obj",
+      "pozycja": [
+        -3.5,
+        0.0,
+        -7.0
+      ],
       "skala": 1.0,
-      "kolor": [0.8, 0.8, 0.8],
-      "lustrzanosc": 0.1,
-      "metalicznosc": 0.0,
+      "kolor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lustrzanosc": 0.3,
+      "metalicznosc": 1.0,
+      "moc_emisji": 0.0
+    },
+    {
+      "typ": "SiatkaOBJ",
+      "sciezka": "models/gradient_helix.obj",
+      "pozycja": [
+        3.5,
+        0.0,
+        -7.0
+      ],
+      "skala": 0.8,
+      "kolor": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "lustrzanosc": 0.3,
+      "metalicznosc": 1.0,
       "moc_emisji": 0.0
     }
   ]

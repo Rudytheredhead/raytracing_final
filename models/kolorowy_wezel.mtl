@@ -1,0 +1,30 @@
+newmtl mat_0
+Kd 1.00 0.10 0.10
+Ke 0 0 0
+Ns 0
+
+newmtl mat_1
+Kd 0.10 1.00 0.10
+Ke 0 0 0
+Ns 50
+
+newmtl mat_2
+Kd 0.10 0.10 1.00
+Ke 0 0 0
+Ns 100
+
+newmtl mat_3
+Kd 1.00 1.00 0.10
+Ke 0 0 0
+Ns 0
+
+newmtl mat_4
+Kd 1.00 0.10 1.00
+Ke 0 0 0
+Ns 80
+
+newmtl mat_5
+Kd 0.10 1.00 1.00
+Ke 0 0 0
+Ns 0
+

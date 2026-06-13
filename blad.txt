@@ -1,0 +1,10 @@
+Nie można odnaleźć opisu dla identyfikatora zdarzenia 153 ze źródła nvlddmkm. Albo składnik wywołujący to zdarzenie nie jest zainstalowany na komputerze lokalnym, albo instalacja jest uszkodzona. Możesz zainstalować lub naprawić składnik na komputerze.
+
+Jeśli zdarzenie pochodzi z innego komputera, wraz ze zdarzeniem może być wymagane zapisanie informacji o wyświetlaniu.
+
+Do zdarzenia dołączono następujące informacje:
+
+\Device\Video4
+Error occurred on GPUID: 100
+
+Zasób komunikatu jest obecny, ale nie odnaleziono tego komunikatu w tabeli komunikatów
