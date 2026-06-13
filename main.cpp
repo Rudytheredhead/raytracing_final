@@ -284,25 +284,35 @@ int main() {
     }
 
     // 3. Pack BLAS
-    for(auto& pair : model_to_blas_offset) {
-        for(const auto& w : pair.first->wezly_bvh_) {
-            push_float(w.obwiednia.min_.x()); push_float(w.obwiednia.min_.y()); push_float(w.obwiednia.min_.z());
-            push_float((float)w.lewy);
-            push_float(w.obwiednia.max_.x()); push_float(w.obwiednia.max_.y()); push_float(w.obwiednia.max_.z());
-            push_float((float)w.miss_link);
-            push_float((float)w.pierwszy_trojkat); push_float((float)w.ilosc_trojkatow);
+    std::unordered_map<Model3D*, bool> packed_blas;
+    for(auto inst : instancje_sceny) {
+        Model3D* m = inst->get_model().get();
+        if (!packed_blas[m]) {
+            packed_blas[m] = true;
+            for(const auto& w : m->wezly_bvh_) {
+                push_float(w.obwiednia.min_.x()); push_float(w.obwiednia.min_.y()); push_float(w.obwiednia.min_.z());
+                push_float((float)w.lewy);
+                push_float(w.obwiednia.max_.x()); push_float(w.obwiednia.max_.y()); push_float(w.obwiednia.max_.z());
+                push_float((float)w.miss_link);
+                push_float((float)w.pierwszy_trojkat); push_float((float)w.ilosc_trojkatow);
+            }
         }
     }
 
     // 4. Pack Triangles
-    for(auto& pair : model_to_tri_offset) {
-        for(const auto& t : pair.first->trojkaty_) {
-            push_float(t.get_v0().x()); push_float(t.get_v0().y()); push_float(t.get_v0().z()); push_float(t.get_lustrzanosc());
-            push_float(t.get_v1().x()); push_float(t.get_v1().y()); push_float(t.get_v1().z()); push_float(t.get_metalicznosc());
-            push_float(t.get_v2().x()); push_float(t.get_v2().y()); push_float(t.get_v2().z()); push_float(t.get_moc_emisji());
-            push_float(t.get_n0().x()); push_float(t.get_n0().y()); push_float(t.get_n0().z()); push_float(t.get_kolor().x());
-            push_float(t.get_n1().x()); push_float(t.get_n1().y()); push_float(t.get_n1().z()); push_float(t.get_kolor().y());
-            push_float(t.get_n2().x()); push_float(t.get_n2().y()); push_float(t.get_n2().z()); push_float(t.get_kolor().z());
+    std::unordered_map<Model3D*, bool> packed_tri;
+    for(auto inst : instancje_sceny) {
+        Model3D* m = inst->get_model().get();
+        if (!packed_tri[m]) {
+            packed_tri[m] = true;
+            for(const auto& t : m->trojkaty_) {
+                push_float(t.get_v0().x()); push_float(t.get_v0().y()); push_float(t.get_v0().z()); push_float(t.get_lustrzanosc());
+                push_float(t.get_v1().x()); push_float(t.get_v1().y()); push_float(t.get_v1().z()); push_float(t.get_metalicznosc());
+                push_float(t.get_v2().x()); push_float(t.get_v2().y()); push_float(t.get_v2().z()); push_float(t.get_moc_emisji());
+                push_float(t.get_n0().x()); push_float(t.get_n0().y()); push_float(t.get_n0().z()); push_float(t.get_kolor().x());
+                push_float(t.get_n1().x()); push_float(t.get_n1().y()); push_float(t.get_n1().z()); push_float(t.get_kolor().y());
+                push_float(t.get_n2().x()); push_float(t.get_n2().y()); push_float(t.get_n2().z()); push_float(t.get_kolor().z());
+            }
         }
     }
 
