@@ -17,17 +17,17 @@ def generate_gradient_shape(filename, segments_u=150, segments_v=24):
     faces = []
     face_materials = []
     
-    # 3D Star-Knot
-    p = 3
-    q = 5
-    r_main = 2.5
-    r_tube = 0.6
+    # Parametry z kolorowy_wezel
+    p = 2
+    q = 3
+    r_tube = 0.5
+    r_main = 2.0
     
     def knot_point(t):
-        r = r_main + math.cos(q * t) * 0.5
+        r = r_main + math.cos(q * t)
         x = r * math.cos(p * t)
         y = r * math.sin(p * t)
-        z = -math.sin(q * t) * 1.5
+        z = -math.sin(q * t)
         return x, y, z
         
     def normalize(v):
@@ -42,22 +42,19 @@ def generate_gradient_shape(filename, segments_u=150, segments_v=24):
         t = 2 * math.pi * i / segments_u
         
         p1 = knot_point(t)
-        p2 = knot_point(t + 0.001)
+        p2 = knot_point(t + 0.01)
         T = normalize((p2[0]-p1[0], p2[1]-p1[1], p2[2]-p1[2]))
         
-        N_temp = (0, 0, 1)
-        if abs(T[2]) > 0.9: N_temp = (1, 0, 0)
+        N_temp = normalize((p1[0]+p2[0], p1[1]+p2[1], p1[2]+p2[2])) 
         B = normalize(cross(T, N_temp))
         N = normalize(cross(B, T))
         
         for j in range(segments_v):
             angle = 2 * math.pi * j / segments_v
             
-            # Ripple profile (gwiazdkowy profil)
-            r_profile = r_tube * (1.0 + 0.2 * math.cos(4 * angle))
-            
-            cx = math.cos(angle) * r_profile
-            cy = math.sin(angle) * r_profile
+            # Zwykly okragly profil (jak w kolorowy_wezel)
+            cx = math.cos(angle) * r_tube
+            cy = math.sin(angle) * r_tube
             
             vx = p1[0] + N[0]*cx + B[0]*cy
             vy = p1[1] + N[1]*cx + B[1]*cy
@@ -94,7 +91,7 @@ def generate_gradient_shape(filename, segments_u=150, segments_v=24):
             f.write(f"newmtl mat_{i}\n")
             f.write(f"Kd {r:.3f} {g:.3f} {b:.3f}\n")
             f.write(f"Ke 0 0 0\n")
-            f.write(f"Ns 90\n") # lsniace
+            f.write(f"Ns 90\n") 
             f.write(f"Ni 1.0\n\n")
 
     with open(filename, 'w') as f:
@@ -117,4 +114,4 @@ def generate_gradient_shape(filename, segments_u=150, segments_v=24):
 
 if __name__ == "__main__":
     generate_gradient_shape("gradient_knot.obj")
-    print("Wygenerowano gradient_knot.obj z plynym gradientem!")
+    print("Wygenerowano gradient_knot.obj z plynym gradientem i gladkim profilem!")
