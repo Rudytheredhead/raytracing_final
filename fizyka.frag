@@ -224,7 +224,7 @@ HitRecord traverseBVH(Ray ray, float t_max) {
 
 
 vec3 calculateLighting(HitRecord hit, vec3 viewDir) {
-    vec3 result = vec3(0.0);
+    vec3 result = hit.kolor * 0.05; // światło otoczenia (ambient)
     vec3 ambient = vec3(0.1) * hit.kolor;
     result += ambient;
     
