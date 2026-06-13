@@ -203,8 +203,8 @@ HitRecord traverseBVH(Ray ray, float t_max) {
                                 closest.point = ray.origin + ray.direction * t_hit; 
                                 closest.normal = normal; 
                                 closest.kolor = inst_kolor * vec3(tri_col_x, tri_col_y, tri_col_z);
-                                closest.lustrzanosc = inst_lustr + tri_lustr;
-                                closest.metalicznosc = inst_metal + tri_metal;
+                                closest.lustrzanosc = clamp(inst_lustr + tri_lustr, 0.0, 1.0);
+                                closest.metalicznosc = clamp(inst_metal + tri_metal, 0.0, 1.0);
                                 closest.moc_emisji = inst_emis + tri_emis;
                             }
                         }
@@ -261,7 +261,7 @@ void main() {
     vec3 attenuation = vec3(1.0);
     float maska_blasku = 0.0;
     
-    for (int bounce = 0; bounce < 1; bounce++) {
+    for (int bounce = 0; bounce < 3; bounce++) {
         HitRecord hit = traverseBVH(ray, 9999.0);
         
         if (!hit.trafienie) {
