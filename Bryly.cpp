@@ -426,18 +426,17 @@ void Model3D::aktualizuj_obwiednie_wezla(int nodeIdx) {
 }
 
 void Model3D::podzial_wezla(int nodeIdx) {
-    BVHWezel& wezel = wezly_bvh_[nodeIdx];
-    if (wezel.ilosc_trojkatow <= 4) return;
+    if (wezly_bvh_[nodeIdx].ilosc_trojkatow <= 4) return;
     
-    Wektor3D rozmiar = wezel.obwiednia.max_ - wezel.obwiednia.min_;
+    Wektor3D rozmiar = wezly_bvh_[nodeIdx].obwiednia.max_ - wezly_bvh_[nodeIdx].obwiednia.min_;
     int os = 0;
     if (rozmiar.y() > rozmiar.x()) os = 1;
     if (rozmiar.z() > rozmiar[os]) os = 2;
     
-    float split_pos = wezel.obwiednia.min_[os] + rozmiar[os] * 0.5f;
+    float split_pos = wezly_bvh_[nodeIdx].obwiednia.min_[os] + rozmiar[os] * 0.5f;
     
-    int i = wezel.pierwszy_trojkat;
-    int j = i + wezel.ilosc_trojkatow - 1;
+    int i = wezly_bvh_[nodeIdx].pierwszy_trojkat;
+    int j = i + wezly_bvh_[nodeIdx].ilosc_trojkatow - 1;
     while (i <= j) {
         if (trojkaty_[i].srodek_geometryczny()[os] < split_pos) {
             i++;
@@ -446,8 +445,8 @@ void Model3D::podzial_wezla(int nodeIdx) {
         }
     }
     
-    int left_count = i - wezel.pierwszy_trojkat;
-    if (left_count == 0 || left_count == wezel.ilosc_trojkatow) return;
+    int left_count = i - wezly_bvh_[nodeIdx].pierwszy_trojkat;
+    if (left_count == 0 || left_count == wezly_bvh_[nodeIdx].ilosc_trojkatow) return;
     
     int left_child_idx = wezly_bvh_.size();
     wezly_bvh_.push_back(BVHWezel());
