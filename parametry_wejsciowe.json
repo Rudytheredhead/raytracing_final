@@ -1,0 +1,33 @@
+{
+  "ustawienia": {
+    "liczba_rdzeni": 8
+  },
+  "swiatla": [
+    {
+      "pozycja": [0.0, 8.0, -10.0],
+      "kolor": [1.0, 0.95, 0.85],
+      "moc_emisji": 300.0,
+      "kat_swiecenia": -2.0,
+      "kierunek_swiecenia": [0.0, -1.0, 0.0]
+    },
+    {
+      "pozycja": [-8.0, 3.0, -6.0],
+      "kolor": [0.3, 0.5, 1.0],
+      "moc_emisji": 150.0,
+      "kat_swiecenia": -2.0,
+      "kierunek_swiecenia": [1.0, -0.5, -0.5]
+    }
+  ],
+  "obiekty": [
+    {
+      "typ": "SiatkaOBJ",
+      "sciezka": "kolorowy_wezel.obj",
+      "pozycja": [0.0, 0.0, -12.0],
+      "skala": 1.5,
+      "kolor": [1.0, 1.0, 1.0],
+      "lustrzanosc": 0.0,
+      "metalicznosc": 0.0,
+      "moc_emisji": 0.0
+    }
+  ]
+}

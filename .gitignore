@@ -1,0 +1,7 @@
+raytracing
+raytracing.exe
+*.o
+html/
+latex/
+html.tar.gz
+render.png
