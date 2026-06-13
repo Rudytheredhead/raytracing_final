@@ -4,34 +4,20 @@
   },
   "swiatla": [
     {
-      "pozycja": [6.0, 10.0, -6.0],
-      "kolor": [1.0, 0.9, 0.8],
-      "moc_emisji": 400.0,
+      "pozycja": [0.0, 12.0, -12.0],
+      "kolor": [1.0, 1.0, 1.0],
+      "moc_emisji": 600.0,
       "kat_swiecenia": -2.0,
-      "kierunek_swiecenia": [-0.5, -1.0, -0.5]
-    },
-    {
-      "pozycja": [-8.0, 5.0, -8.0],
-      "kolor": [0.4, 0.6, 1.0],
-      "moc_emisji": 150.0,
-      "kat_swiecenia": -2.0,
-      "kierunek_swiecenia": [1.0, -0.5, -0.5]
-    },
-    {
-      "pozycja": [0.0, 6.0, -20.0],
-      "kolor": [0.8, 0.2, 1.0],
-      "moc_emisji": 350.0,
-      "kat_swiecenia": -2.0,
-      "kierunek_swiecenia": [0.0, -0.5, 1.0]
+      "kierunek_swiecenia": [0.0, -1.0, 0.0]
     }
   ],
   "obiekty": [
     {
       "typ": "SiatkaOBJ",
-      "sciezka": "helix.obj",
+      "sciezka": "gradient_helix.obj",
       "pozycja": [-3.5, 0.0, -12.0],
       "skala": 1.0,
-      "kolor": [0.9, 0.2, 0.3],
+      "kolor": [1.0, 1.0, 1.0],
       "lustrzanosc": 0.8,
       "metalicznosc": 0.8,
       "moc_emisji": 0.0

@@ -1,0 +1,1194 @@
+newmtl mat_0
+Kd 0.000 1.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_1
+Kd 0.000 0.988 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_2
+Kd 0.000 0.976 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_3
+Kd 0.000 0.964 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_4
+Kd 0.000 0.952 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_5
+Kd 0.000 0.939 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_6
+Kd 0.000 0.927 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_7
+Kd 0.000 0.915 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_8
+Kd 0.000 0.903 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_9
+Kd 0.000 0.891 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_10
+Kd 0.000 0.879 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_11
+Kd 0.000 0.867 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_12
+Kd 0.000 0.855 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_13
+Kd 0.000 0.842 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_14
+Kd 0.000 0.830 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_15
+Kd 0.000 0.818 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_16
+Kd 0.000 0.806 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_17
+Kd 0.000 0.794 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_18
+Kd 0.000 0.782 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_19
+Kd 0.000 0.770 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_20
+Kd 0.000 0.758 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_21
+Kd 0.000 0.745 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_22
+Kd 0.000 0.733 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_23
+Kd 0.000 0.721 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_24
+Kd 0.000 0.709 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_25
+Kd 0.000 0.697 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_26
+Kd 0.000 0.685 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_27
+Kd 0.000 0.673 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_28
+Kd 0.000 0.661 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_29
+Kd 0.000 0.648 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_30
+Kd 0.000 0.636 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_31
+Kd 0.000 0.624 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_32
+Kd 0.000 0.612 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_33
+Kd 0.000 0.600 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_34
+Kd 0.000 0.588 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_35
+Kd 0.000 0.576 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_36
+Kd 0.000 0.564 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_37
+Kd 0.000 0.552 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_38
+Kd 0.000 0.539 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_39
+Kd 0.000 0.527 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_40
+Kd 0.000 0.515 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_41
+Kd 0.000 0.503 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_42
+Kd 0.000 0.491 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_43
+Kd 0.000 0.479 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_44
+Kd 0.000 0.467 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_45
+Kd 0.000 0.455 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_46
+Kd 0.000 0.442 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_47
+Kd 0.000 0.430 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_48
+Kd 0.000 0.418 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_49
+Kd 0.000 0.406 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_50
+Kd 0.000 0.394 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_51
+Kd 0.000 0.382 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_52
+Kd 0.000 0.370 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_53
+Kd 0.000 0.358 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_54
+Kd 0.000 0.345 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_55
+Kd 0.000 0.333 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_56
+Kd 0.000 0.321 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_57
+Kd 0.000 0.309 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_58
+Kd 0.000 0.297 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_59
+Kd 0.000 0.285 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_60
+Kd 0.000 0.273 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_61
+Kd 0.000 0.261 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_62
+Kd 0.000 0.248 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_63
+Kd 0.000 0.236 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_64
+Kd 0.000 0.224 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_65
+Kd 0.000 0.212 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_66
+Kd 0.000 0.200 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_67
+Kd 0.000 0.188 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_68
+Kd 0.000 0.176 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_69
+Kd 0.000 0.164 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_70
+Kd 0.000 0.152 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_71
+Kd 0.000 0.139 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_72
+Kd 0.000 0.127 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_73
+Kd 0.000 0.115 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_74
+Kd 0.000 0.103 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_75
+Kd 0.000 0.091 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_76
+Kd 0.000 0.079 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_77
+Kd 0.000 0.067 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_78
+Kd 0.000 0.055 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_79
+Kd 0.000 0.042 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_80
+Kd 0.000 0.030 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_81
+Kd 0.000 0.018 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_82
+Kd 0.000 0.006 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_83
+Kd 0.006 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_84
+Kd 0.018 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_85
+Kd 0.030 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_86
+Kd 0.042 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_87
+Kd 0.055 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_88
+Kd 0.067 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_89
+Kd 0.079 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_90
+Kd 0.091 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_91
+Kd 0.103 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_92
+Kd 0.115 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_93
+Kd 0.127 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_94
+Kd 0.139 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_95
+Kd 0.152 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_96
+Kd 0.164 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_97
+Kd 0.176 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_98
+Kd 0.188 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_99
+Kd 0.200 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_100
+Kd 0.212 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_101
+Kd 0.224 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_102
+Kd 0.236 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_103
+Kd 0.248 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_104
+Kd 0.261 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_105
+Kd 0.273 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_106
+Kd 0.285 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_107
+Kd 0.297 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_108
+Kd 0.309 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_109
+Kd 0.321 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_110
+Kd 0.333 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_111
+Kd 0.345 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_112
+Kd 0.358 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_113
+Kd 0.370 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_114
+Kd 0.382 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_115
+Kd 0.394 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_116
+Kd 0.406 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_117
+Kd 0.418 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_118
+Kd 0.430 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_119
+Kd 0.442 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_120
+Kd 0.455 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_121
+Kd 0.467 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_122
+Kd 0.479 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_123
+Kd 0.491 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_124
+Kd 0.503 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_125
+Kd 0.515 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_126
+Kd 0.527 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_127
+Kd 0.539 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_128
+Kd 0.552 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_129
+Kd 0.564 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_130
+Kd 0.576 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_131
+Kd 0.588 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_132
+Kd 0.600 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_133
+Kd 0.612 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_134
+Kd 0.624 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_135
+Kd 0.636 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_136
+Kd 0.648 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_137
+Kd 0.661 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_138
+Kd 0.673 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_139
+Kd 0.685 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_140
+Kd 0.697 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_141
+Kd 0.709 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_142
+Kd 0.721 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_143
+Kd 0.733 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_144
+Kd 0.745 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_145
+Kd 0.758 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_146
+Kd 0.770 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_147
+Kd 0.782 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_148
+Kd 0.794 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_149
+Kd 0.806 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_150
+Kd 0.818 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_151
+Kd 0.830 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_152
+Kd 0.842 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_153
+Kd 0.855 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_154
+Kd 0.867 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_155
+Kd 0.879 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_156
+Kd 0.891 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_157
+Kd 0.903 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_158
+Kd 0.915 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_159
+Kd 0.927 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_160
+Kd 0.939 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_161
+Kd 0.952 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_162
+Kd 0.964 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_163
+Kd 0.976 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_164
+Kd 0.988 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_165
+Kd 1.000 0.000 1.000
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_166
+Kd 1.000 0.000 0.988
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_167
+Kd 1.000 0.000 0.976
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_168
+Kd 1.000 0.000 0.964
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_169
+Kd 1.000 0.000 0.952
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_170
+Kd 1.000 0.000 0.939
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_171
+Kd 1.000 0.000 0.927
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_172
+Kd 1.000 0.000 0.915
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_173
+Kd 1.000 0.000 0.903
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_174
+Kd 1.000 0.000 0.891
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_175
+Kd 1.000 0.000 0.879
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_176
+Kd 1.000 0.000 0.867
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_177
+Kd 1.000 0.000 0.855
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_178
+Kd 1.000 0.000 0.842
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_179
+Kd 1.000 0.000 0.830
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_180
+Kd 1.000 0.000 0.818
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_181
+Kd 1.000 0.000 0.806
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_182
+Kd 1.000 0.000 0.794
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_183
+Kd 1.000 0.000 0.782
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_184
+Kd 1.000 0.000 0.770
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_185
+Kd 1.000 0.000 0.758
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_186
+Kd 1.000 0.000 0.745
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_187
+Kd 1.000 0.000 0.733
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_188
+Kd 1.000 0.000 0.721
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_189
+Kd 1.000 0.000 0.709
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_190
+Kd 1.000 0.000 0.697
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_191
+Kd 1.000 0.000 0.685
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_192
+Kd 1.000 0.000 0.673
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_193
+Kd 1.000 0.000 0.661
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_194
+Kd 1.000 0.000 0.648
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_195
+Kd 1.000 0.000 0.636
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_196
+Kd 1.000 0.000 0.624
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_197
+Kd 1.000 0.000 0.612
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
+newmtl mat_198
+Kd 1.000 0.000 0.600
+Ke 0 0 0
+Ns 90
+Ni 1.0
+
