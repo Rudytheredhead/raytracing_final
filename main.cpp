@@ -175,7 +175,10 @@ int main() {
         }
         
         int left_count = i - tlas_wezly[nodeIdx].pierwszy_trojkat;
-        if (left_count == 0 || left_count == tlas_wezly[nodeIdx].ilosc_trojkatow) return;
+        if (left_count == 0 || left_count == tlas_wezly[nodeIdx].ilosc_trojkatow) {
+            left_count = tlas_wezly[nodeIdx].ilosc_trojkatow / 2;
+            i = tlas_wezly[nodeIdx].pierwszy_trojkat + left_count;
+        }
         
         int left_child_idx = tlas_wezly.size();
         tlas_wezly.push_back(BVHWezel());

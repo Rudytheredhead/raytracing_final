@@ -446,7 +446,10 @@ void Model3D::podzial_wezla(int nodeIdx) {
     }
     
     int left_count = i - wezly_bvh_[nodeIdx].pierwszy_trojkat;
-    if (left_count == 0 || left_count == wezly_bvh_[nodeIdx].ilosc_trojkatow) return;
+    if (left_count == 0 || left_count == wezly_bvh_[nodeIdx].ilosc_trojkatow) {
+        left_count = wezly_bvh_[nodeIdx].ilosc_trojkatow / 2;
+        i = wezly_bvh_[nodeIdx].pierwszy_trojkat + left_count;
+    }
     
     int left_child_idx = wezly_bvh_.size();
     wezly_bvh_.push_back(BVHWezel());
