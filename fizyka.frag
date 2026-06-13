@@ -261,7 +261,7 @@ void main() {
     vec3 attenuation = vec3(1.0);
     float maska_blasku = 0.0;
     
-    for (int bounce = 0; bounce < 3; bounce++) {
+    for (int bounce = 0; bounce < 1; bounce++) {
         HitRecord hit = traverseBVH(ray, 9999.0);
         
         if (!hit.trafienie) {
